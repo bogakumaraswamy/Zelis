@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-button{
+    color: #fff;
+    background: #23004B;
+}
+.mat-menu-panel {
+    border-radius: 5px!important;
+}
+.mat-menu-panel {
+    max-width: 336px!important;
+}
+.mat-bottom {
+    position: fixed;
+    bottom: 305px;
+    left: 16px;
+}
+.mat-checkbox-inner-container {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height: 16px;
+    width: 16px;
+    background-color: #ccc;
+}
+.mat-checkbox-checkmark-path {
+    stroke: transparent!important;
+}

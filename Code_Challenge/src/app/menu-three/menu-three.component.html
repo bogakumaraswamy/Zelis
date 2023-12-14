@@ -1,0 +1,7 @@
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item *ngFor="let menu of menudata">
+    <mat-checkbox class="example-margin"> {{menu.item}}</mat-checkbox>
+   
+  </button>
+</mat-menu>
